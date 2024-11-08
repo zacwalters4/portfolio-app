@@ -67,15 +67,16 @@ main {
   justify-content: center;
 }
 
-p {
+.menu-items {
   color: #929497;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   font-size: 3rem;
   margin: 5px;
+  transition-duration: 50ms;
 }
 
-p:hover {
+.menu-items:hover {
   color: #FFD700;
   transform: scale(1.2);
 }
