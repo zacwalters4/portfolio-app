@@ -6,7 +6,7 @@ function App() {
     <main>
       <img className='logo' src={logo}/>
       <div className='link-container'>
-        <p>Sofware Development</p>
+        <p>Software Development</p>
         <p>Photography</p>
         <p>Achievements</p>
         <p>About Me</p>

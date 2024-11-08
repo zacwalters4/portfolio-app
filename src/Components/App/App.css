@@ -9,10 +9,10 @@ main {
   font-size: calc(10px + 2vmin);
   color: white;
   background-image: url('./../../../public/background.png');
-  background-position: left;
+  background-position: 0 30%;
   background-repeat: repeat-x;
-  background-size: contain;
-  animation: scroll-left 3s linear infinite;
+  background-size: 100vw;
+  animation: scroll-left 4s linear infinite;
 }
 
 @keyframes scroll-left {
@@ -20,13 +20,44 @@ main {
     background-position-x: 0%;
   }
   to {
-    background-position-x: 122.25vh;
+    background-position-x: 100vw;
   }
 }
 
 .logo {
   height: 20vh;
   margin-top: 5vh;
+  animation: pulse 15s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: rotate(0) scale(.9);
+  }
+  12.5% {
+    transform: rotate(2.5deg) scale(1.1);
+  }
+  25% {
+    transform: rotate(5deg) scale(.9);
+  }
+  37.5% {
+    transform: rotate(2.5deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(0deg) scale(.9);
+  }
+  62.5% {
+    transform: rotate(-2.5deg) scale(1.1);
+  }
+  75% {
+    transform: rotate(-5deg) scale(.9);
+  }
+  87.5% {
+    transform: rotate(-2.5deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(0deg) scale(.9);
+  }
 }
 
 .link-container {
