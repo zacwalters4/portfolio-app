@@ -3,7 +3,12 @@ import './Header.css'
 const Header = () => {
     return (
         <header>
-            <h1>Zac</h1>
+            <h1>ZACHARY WALTERS</h1>
+            <div className='header-links'>
+                <p>PORTFOLIO</p>
+                <p>RESUME</p>
+                <p>ABOUT</p>
+            </div>
         </header>
     )
 }

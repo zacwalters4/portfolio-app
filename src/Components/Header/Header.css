@@ -5,5 +5,21 @@ header {
     width: 100vw;
     height: 100px;
     background-color: #28282A;
-    
+    color: white;
+    border-bottom: white 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    margin-right: 5%;
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    font-weight: 200;
+}
+
+h1 {
+    margin-left: 5%;
 }
