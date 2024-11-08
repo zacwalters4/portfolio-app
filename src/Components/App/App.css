@@ -1,11 +1,50 @@
 
 main {
   background-color: #28282A;
-  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url('./../../../public/background.png');
+  background-position: left;
+  background-repeat: repeat-x;
+  background-size: contain;
+  animation: scroll-left 3s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    background-position-x: 0%;
+  }
+  to {
+    background-position-x: 122.25vh;
+  }
+}
+
+.logo {
+  height: 20vh;
+  margin-top: 5vh;
+}
+
+.link-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+p {
+  color: #929497;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  font-size: 3rem;
+  margin: 5px;
+}
+
+p:hover {
+  color: #FFD700;
+  transform: scale(1.2);
 }

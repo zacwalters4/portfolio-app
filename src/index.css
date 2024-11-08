@@ -1,11 +1,16 @@
+@font-face {
+  font-family: Andy;
+  src: url('Andy Bold.ttf');
+}
+
 body {
   margin: 0;
-  font-family: "Kanit", sans-serif;
-  font-weight: 300;
+  font-family: "Andy", sans-serif;
+  font-weight: 500;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  cursor: url("cursor.png"), auto;
 }
 
 code {
