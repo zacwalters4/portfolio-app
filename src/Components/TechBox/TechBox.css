@@ -1,28 +1,27 @@
 .tech-box {
-    margin: 20px;
-    width: 45%;
+    margin: 15px;
+    width: 200px;
     height: 80px;
-    background-color: #495eabce;
-    border: #4C65B7 solid 2px;
+    background-color: #495eabde;
+    border: #4C65B7 solid 3px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .icon-container {
+    border: #58679A solid 3px;
+    border-radius: 10px;
     position: relative;
-    background-color: #1c2342ce;
+    background-color: #1E2B5Ace;
     aspect-ratio: 1/1;
-    height: 80%;
+    height: 70%;
     overflow: hidden;
-}
-
-.tech-name {
-    color: white;
-    font-size: 3rem;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-border {
@@ -34,6 +33,21 @@
 
 .tech-icon {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+}
+
+.name-container {
+    padding-top: 5px;
+    height: 70%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.tech-name {
+    color: white;
+    font-size: 2rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 0;
 }
