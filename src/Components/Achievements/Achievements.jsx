@@ -8,7 +8,7 @@ import usaplIcon from '../../Icons/usapl.jpg'
 import fuelIcon from '../../Icons/dallasfuel.png'
 
 const Achievements = ({handleMenuClick}) => {
-    console.log(turingLogo)
+
     const [play] = useSound(tick)
 
     const menuTick = () => {
@@ -21,15 +21,15 @@ const Achievements = ({handleMenuClick}) => {
             <div className='achievement-container'>
                 <AchievementBox 
                     icon={turingLogo} 
-                    source={'Turing School of Software & Design'} 
-                    text={<p className='description-text'>ACCET Accredited Frontend Software Engineering Certificate</p>}
+                    source={'Get Educated!'} 
+                    text={<p className='description-text'>Recieved an ACCET Accredited Frontend Software Engineering Certificate from Turing School of Software & Design.</p>}
                 />
                 <AchievementBox icon={fuelIcon} 
-                    source={'Aim Lab x Dallas Fuel'} 
-                    text={<p className='description-text'>Creator of the <a className='achievement-link' href={'https://x.com/aimlab/status/1532723928841478144'}>Aim lab's</a> Overwatch League 2022 Kickoff Clash Tasks. These in game tasks were played by fans at <a className='achievement-link' href={'https://x.com/DallasFuel/status/1534937152819187712'}>Dallas Fuel's</a> homestand!</p>} 
+                    source={'It\'s getting hot in here...'} 
+                    text={<p className='description-text'>Created <a className='achievement-link' href={'https://x.com/aimlab/status/1532723928841478144'}>Aim lab's</a> Overwatch League 2022 Kickoff Clash Tasks. These in game tasks were played by fans at <a className='achievement-link' href={'https://x.com/DallasFuel/status/1534937152819187712'}>Dallas Fuel's</a> homestand!</p>} 
                 />
-                <AchievementBox icon={top500Icon} source={'Overwatch'} text={<p className='description-text'>Multi-Season Overwatch Top 500 Ranked Player</p>}/>
-                <AchievementBox icon={usaplIcon} source={'Powerlifting'} text={<p className='description-text'>Coming soon...</p>}/>
+                <AchievementBox icon={top500Icon} source={'What\'s an aimbot?'} text={<p className='description-text'>Achieved top 100 ranking in Overwatch competitive.</p>}/>
+                <AchievementBox locked={true} icon={usaplIcon} source={'Power up!'} text={<p className='description-text'>Place first in a USA Powerlifting sanctioned competition.</p>}/>
             </div>
             <button className='back-button' id='menu' onMouseEnter={menuTick} onClick={handleMenuClick}>Back</button>
         </div>
