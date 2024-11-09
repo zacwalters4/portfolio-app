@@ -24,13 +24,6 @@
     align-items: center;
 }
 
-.icon-border {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-}
-
 .tech-icon {
     position: absolute;
     width: 80%;

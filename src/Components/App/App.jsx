@@ -6,6 +6,7 @@ import openSound from './../../Sounds/Menu_Open.wav'
 import closeSound from './../../Sounds/Menu_Close.wav'
 import { useState, useEffect } from 'react'
 import Technologies from '../Technologies/Technologies'
+import Achievements from '../Achievements/Achievements'
 
 function App() {
 
@@ -38,13 +39,16 @@ function App() {
         <div className='link-container'>
           <p className='menu-items' id='portfolio' onMouseEnter={menuTick}>Portfolio</p>
           <p className='menu-items' id='technologies' onMouseEnter={menuTick} onClick={handleMenuClick}>Technologies</p>
-          <p className='menu-items' onMouseEnter={menuTick}>Achievements</p>
+          <p className='menu-items' id='achievements' onMouseEnter={menuTick} onClick={handleMenuClick}>Achievements</p>
           <p className='menu-items' onMouseEnter={menuTick}>About Me</p>
           <p className='menu-items' onMouseEnter={menuTick}>Resume</p>
         </div>
       }
       {currentMenu === 'technologies' && 
         <Technologies handleMenuClick={handleMenuClick}/>
+      }
+      {currentMenu === 'achievements' && 
+        <Achievements handleMenuClick={handleMenuClick}/>
       }
       
     </main>
