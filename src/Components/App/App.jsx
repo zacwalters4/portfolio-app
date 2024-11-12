@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react'
 import Technologies from '../Technologies/Technologies'
 import Achievements from '../Achievements/Achievements'
 import About from '../About/About'
+import Experience from '../Experience/Experience'
 
 function App() {
 
@@ -39,7 +40,7 @@ function App() {
       {(currentMenu === 'menu') && 
         <div className='link-container'>
           <p className='menu-items' id='portfolio' onMouseEnter={menuTick}>Portfolio</p>
-          <p className='menu-items' id='experience' onMouseEnter={menuTick}>Experience</p>
+          <p className='menu-items' id='experience' onMouseEnter={menuTick} onClick={handleMenuClick}>Experience</p>
           <p className='menu-items' id='technologies' onMouseEnter={menuTick} onClick={handleMenuClick}>Technologies</p>
           <p className='menu-items' id='achievements' onMouseEnter={menuTick} onClick={handleMenuClick}>Achievements</p>
           <p className='menu-items' id='about' onMouseEnter={menuTick} onClick={handleMenuClick}>About Me</p>
@@ -54,6 +55,9 @@ function App() {
       }
       {currentMenu === 'about' && 
         <About handleMenuClick={handleMenuClick}/>
+      }
+      {currentMenu === 'experience' && 
+        <Experience handleMenuClick={handleMenuClick}/>
       }
       
     </main>

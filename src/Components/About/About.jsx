@@ -16,7 +16,7 @@ const About = ({handleMenuClick}) => {
             <h1>About Me</h1>
             <div className='about-container'>
                 <p className='about-text'>
-                Hello, my name is Zac. I recently graduated from the Turing School of Software & Design and was recently employed with NovaEdge Technology as a Front End Software Engineer. I am heavily motivated by self improvement and competition, and driven to push myself and my development skills to the highest level possible. Outside of software development, I spend my free time powerlifting and gaming competitively. 
+                Hello, my name is Zac. I recently graduated from the Turing School of Software & Design and was recently employed with NovaEdge Technology as a Front End Software Engineer. I am heavily motivated by self improvement and competition, and driven to push myself and my development skills to the highest level possible. Outside of software development, I spend my free time powerlifting, gaming competitively, and on weekends I play ice hockey casually.
                 </p>
                 <div className='socials-container'>
                     <a href={'mailto:https://zacwalters4@gmail.com'}>

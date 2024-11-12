@@ -1,0 +1,52 @@
+.experience {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    position: fixed;
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+    background-color: #495EAB;
+    padding: 5px 10px 5px 10px;
+    border: black solid 2px;
+    border-radius: 20px;
+    margin: 0;
+    height: 60px;
+    font-size: 3.5rem;
+}
+
+.experience-container {
+    margin-top: 60px;
+    padding-top: 5px;
+    width: 100%;
+    height: 80%;
+    background-color: #1c2342ce;
+    border: black solid 2px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.back-button {
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+    background-color: #495eabde;
+    padding: 5px 10px 5px 10px;
+    border: black solid 2px;
+    border-radius: 20px;
+    height: 60px;
+    width: 500px;
+}
+
+.back-button:hover {
+    border: #FFD700 solid 2px;
+}
