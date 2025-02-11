@@ -4,19 +4,33 @@ import useSound from 'use-sound'
 import ExperienceBox from '../ExperienceBox/ExperienceBox'
 import novaEdgeLogo from '../../Icons/novaedge_usa_logo.jpg'
 import stateSpaceLogo from '../../Icons/statespace_logo.jpg'
+import bardSignalsLogo from '../../Icons/bard_logo.png'
 
-const Experience = ({handleMenuClick}) => {
+const Experience = ({handleMenuClick, sound}) => {
 
     const [play] = useSound(tick)
 
     const menuTick = () => {
-      play()
+        if(sound) play()
     }
 
     return (
         <div className='experience'>
             <h1>Experience</h1>
             <div className='experience-container'>
+                <ExperienceBox 
+                        icon={bardSignalsLogo} 
+                        company={'Bard Signals'}
+                        title={'Freelance Web Developer'}
+                        date={'December 2024 - February 2025'}
+                        text={<p className='description-text'>
+                            ● Developed and designed a web application marketing the Bard Signals bot
+                            <br/>
+                            ● Created a responsive website useable on all screen sizes
+                            <br/>
+                            ● Frequently communicated with the customer to deliver a product matching their vision
+                        </p>}
+                />
                 <ExperienceBox 
                     icon={novaEdgeLogo} 
                     company={'NovaEdge Technology'}
@@ -41,7 +55,7 @@ const Experience = ({handleMenuClick}) => {
                         <br/>
                         ● Create challenges in Aim Lab for a partnered event with Dallas Fuel, reflecting their brand in the design
                         <br/>
-                        ● Accumulated over one million Steam workshop subscribers
+                        ● Accumulated nearly two million Steam workshop subscribers
                     </p>} 
                 />
             </div>

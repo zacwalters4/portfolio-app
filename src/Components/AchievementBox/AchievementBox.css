@@ -88,18 +88,39 @@
     border-radius: 5px;
 }
 
-.description-text {
-    color: #C0C0C0;
-    font-size: 1.2rem;
+.achievement-link {
+    color: #FFD700;
+    font-size: 1rem;
     margin: 0;
     margin-left: 5px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.achievement-link {
-    color: #FFD700;
-    font-size: 1.2rem;
-    margin: 0;
-    margin-left: 5px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+@media (max-width: 650px) {
+    .achievement-text-box {
+        width: 70%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .achievement-icon {
+        position: relative;
+        background-color: #1E2B5Ace;
+        aspect-ratio: 1/1;
+        height: 50px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .achievement-link {
+        color: #FFD700;
+        font-size: .8rem;
+        margin: 0;
+        margin-left: 5px;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
 }

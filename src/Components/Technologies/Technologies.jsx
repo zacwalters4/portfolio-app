@@ -3,12 +3,12 @@ import tick from './../../Sounds/Menu_Tick.wav'
 import useSound from 'use-sound'
 import TechBox from '../TechBox/TechBox'
 
-const Technologies = ({handleMenuClick}) => {
+const Technologies = ({handleMenuClick, sound}) => {
 
     const [play] = useSound(tick)
 
     const menuTick = () => {
-      play()
+        if(sound) play()
     }
 
     return (

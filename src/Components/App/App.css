@@ -12,6 +12,8 @@ main {
   background-repeat: repeat-x;
   background-size: 100vw;
   animation: scroll-left 4s linear infinite;
+  overflow: hidden;
+  /* background-size: cover; */
 }
 
 @keyframes scroll-left {
@@ -76,10 +78,54 @@ main {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
-
+  text-decoration: none;
+  height: 45px;
 }
 
 .menu-items:hover {
   color: #FFD700;
   transform: scale(1.2);
+}
+
+@media (max-width: 1050px) {
+  main {
+    background-color: #28282A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-image: url('./../../../public/background.png');
+    background-position: 0 30%;
+    background-repeat: repeat-x;
+    background-size: 100vh;
+    animation: scroll-left-mobile 4s linear infinite;
+    overflow: hidden;
+    background-size: cover;
+  }
+  
+  @keyframes scroll-left-mobile {
+    from {
+      background-position-x: 0%;
+    }
+    to {
+      background-position-x: 122vh;
+    }
+  }
+
+  .logo {
+    height: 20vh;
+    animation: pulse 15s linear infinite;
+    margin-top: 5vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    height: auto;
+    width: 90vw;
+    animation: pulse 15s linear infinite;
+  }
 }

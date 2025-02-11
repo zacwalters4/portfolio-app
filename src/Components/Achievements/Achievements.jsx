@@ -7,12 +7,12 @@ import top500Icon from '../../Icons/top500.png'
 import usaplIcon from '../../Icons/usapl.jpg'
 import fuelIcon from '../../Icons/dallasfuel.png'
 
-const Achievements = ({handleMenuClick}) => {
+const Achievements = ({handleMenuClick, sound}) => {
 
     const [play] = useSound(tick)
 
     const menuTick = () => {
-      play()
+        if(sound) play()
     }
 
     return (

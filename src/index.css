@@ -11,6 +11,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: url("cursor.png"), auto;
+  overflow: hidden;
+}
+
+a {
+  cursor: url("cursor.png"), auto;
 }
 
 code {

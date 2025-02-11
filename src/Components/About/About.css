@@ -1,6 +1,5 @@
 .about {
     width: 50%;
-    height: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,25 +37,6 @@ h1 {
     font-size: 1.8rem;
 }
 
-.back-button {
-    margin-top: 20px;
-    font-family: inherit;
-    font-size: 3rem;
-    text-align: center;
-    color: white;
-    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
-    background-color: #495eabde;
-    padding: 5px 10px 5px 10px;
-    border: black solid 2px;
-    border-radius: 20px;
-    height: 60px;
-    width: 500px;
-}
-
-.back-button:hover {
-    border: #FFD700 solid 2px;
-}
-
 .socials-container {
     width: 40%;
     display: flex;
@@ -72,4 +52,33 @@ h1 {
 .socials-badge:hover {
     border: #FFD700 solid 2px;
     border-radius: 10px;
+}
+
+a {
+    height: 32px;
+}
+
+@media (max-width: 1750px) {
+    .about-text {
+        width: 90%;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .about-text {
+        width: 90%;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .about {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

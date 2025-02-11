@@ -11,7 +11,6 @@ const TechBox = ({icon, name}) => {
             <div className='name-container'>
                 <p className='tech-name'>{name}</p>
             </div>
-            
         </div>
     )
 }
