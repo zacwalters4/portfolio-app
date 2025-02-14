@@ -11,8 +11,7 @@ export const projects = {
     bardSignals: {
         name: 'Bard Signals',
         description: 'Bard Signals is a web application advertising the Bard Signals telegram bot to potential customers.',
-        preview: 'https://private-user-images.githubusercontent.com/22826695/410247916-9011da0c-eae6-4809-970d-ea57e3ce6b27.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkyNjI0OTEsIm5iZiI6MTczOTI2MjE5MSwicGF0aCI6Ii8yMjgyNjY5NS80MTAyNDc5MTYtOTAxMWRhMGMtZWFlNi00ODA5LTk3MGQtZWE1N2UzY2U2YjI3LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjExVDA4MjMxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFhZTU4YTY4NmExYTc0MzFhZDQ5ODkzZTljODQ3OGE5YjUyODJlMjZmZTVkMzNhZTgyMWM4ZDk3MWRlMTkyN2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.rwfSYWiSyPlPNtsgjRJXPLBMzFmNpxdzZtAqNKfIJN0',
-        github: 'https://github.com/zacwalters4/bard_signals',
+        preview: 'https://raw.githubusercontent.com/zacwalters4/portfolio-app/refs/heads/main/src/Components/Portfolio/bardsignals.gif',
         technologies: ["https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB", "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white", "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"]
       },
       listenUp: {
