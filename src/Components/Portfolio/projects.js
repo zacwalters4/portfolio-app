@@ -5,7 +5,7 @@ export const projects = {
     novaEdge: {
         name: 'NovaEdge Technology',
         description: 'NovaEdge is a SaaS Enterprise Platform for electrical engineers revolutionizing industrial automation.',
-        preview: novaEdge,
+        preview: 'https://media.githubusercontent.com/media/zacwalters4/portfolio-app/main/src/Components/Portfolio/novaedge.gif',
         technologies: ["https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white", "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white","https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white", "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white", "https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white", "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white", "https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"]
     },
     bardSignals: {
@@ -46,7 +46,7 @@ export const projects = {
       aimlabs: {
         name: 'Aimlabs',
         description:'Overwatch League 2022 Kickoff Clash Aimlabs tasks.',
-        preview: aimlabs
+        preview: 'https://media.githubusercontent.com/media/zacwalters4/portfolio-app/main/src/Components/Portfolio/aimlab.gif'
       },
     
 }
