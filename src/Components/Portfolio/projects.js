@@ -32,7 +32,7 @@ export const projects = {
         name: 'Discography Deathmatch',
         description: 'Discography Deathmatch allows users to pit an artist\'s albums against eachother to find their favorite.',
         github: 'https://github.com/zacwalters4/discography_deathmatch',
-        preview: 'https://private-user-images.githubusercontent.com/22826695/271476686-9b6887f2-2d66-4002-93ca-3a2df028220b.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkzMTgwNDMsIm5iZiI6MTczOTMxNzc0MywicGF0aCI6Ii8yMjgyNjY5NS8yNzE0NzY2ODYtOWI2ODg3ZjItMmQ2Ni00MDAyLTkzY2EtM2EyZGYwMjgyMjBiLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjExVDIzNDkwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU2NjI4MGQ0OTc5YTE0M2NmMzE3MDM2M2I1NDM1MTA1MGFmMjAwOGEyYzA5MTI3N2E1YWNkMDYwNTgxMWJhYTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.x-nEH57LuWyuyS-Kk4-L4hO68Wb5emgADRLYlKV0zjU',
+        preview: 'https://raw.githubusercontent.com/zacwalters4/portfolio-app/refs/heads/main/src/Components/Portfolio/discographydeathmatch.gif',
         technologies: ["https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" ,"https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" ,"https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" ,"https://img.shields.io/badge/Cypress.io-6e3596?style=for-the-badge" ,"https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"]
       },
       whatsCookin: {
