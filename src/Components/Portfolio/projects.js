@@ -12,6 +12,7 @@ export const projects = {
         name: 'Bard Signals',
         description: 'Bard Signals is a web application advertising the Bard Signals telegram bot to potential customers.',
         preview: 'https://raw.githubusercontent.com/zacwalters4/portfolio-app/refs/heads/main/src/Components/Portfolio/bardsignals.gif',
+        github: 'https://github.com/zacwalters4/bard_signals',
         technologies: ["https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB", "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white", "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"]
       },
       listenUp: {
